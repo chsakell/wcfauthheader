@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://127.0.0.1:9001/BlogService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BlogService.Lib" />
+  <xs:element name="ReadPosts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadPostsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/BlogService.Lib" minOccurs="0" name="ReadPostsResult" nillable="true" type="q1:ArrayOfPost" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

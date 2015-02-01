@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthBehavior", "AuthBehavior\AuthBehavior.csproj", "{C7C53E60-87A7-47FD-A32C-2695F140E307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogService.Host", "BlogService.Host\BlogService.Host.csproj", "{5F1898BE-D752-4A68-AEB7-088AE25B44EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogService.InternalClient", "BlogService.InternalClient\BlogService.InternalClient.csproj", "{34C28765-7B96-46EF-976A-FADEC8DAE0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogService.ExternalClient", "BlogService.ExternalClient\BlogService.ExternalClient.csproj", "{00B87F13-90CF-47E2-90D7-7C483684D2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogService.Lib", "BlogService.Lib\BlogService.Lib.csproj", "{8BE68FC5-8258-4A41-9337-C8BB455E8DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4AB24602-6DE9-4042-8DB7-0B934CC28896}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C53E60-87A7-47FD-A32C-2695F140E307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C53E60-87A7-47FD-A32C-2695F140E307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C53E60-87A7-47FD-A32C-2695F140E307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C53E60-87A7-47FD-A32C-2695F140E307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1898BE-D752-4A68-AEB7-088AE25B44EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1898BE-D752-4A68-AEB7-088AE25B44EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1898BE-D752-4A68-AEB7-088AE25B44EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1898BE-D752-4A68-AEB7-088AE25B44EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C28765-7B96-46EF-976A-FADEC8DAE0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C28765-7B96-46EF-976A-FADEC8DAE0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C28765-7B96-46EF-976A-FADEC8DAE0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C28765-7B96-46EF-976A-FADEC8DAE0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B87F13-90CF-47E2-90D7-7C483684D2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B87F13-90CF-47E2-90D7-7C483684D2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B87F13-90CF-47E2-90D7-7C483684D2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B87F13-90CF-47E2-90D7-7C483684D2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE68FC5-8258-4A41-9337-C8BB455E8DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE68FC5-8258-4A41-9337-C8BB455E8DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE68FC5-8258-4A41-9337-C8BB455E8DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE68FC5-8258-4A41-9337-C8BB455E8DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
