@@ -44,6 +44,8 @@ namespace BlogService.InternalClient
             {
                 throw ex;
             }
+
+            Console.ReadKey();
         }
 
         #endregion
